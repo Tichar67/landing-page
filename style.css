@@ -1,0 +1,71 @@
+body {
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+.black, .copy {
+    background-color: #1f2937;
+}
+
+a, .logo, .subtext, .copy {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.placeholder {
+    width: 400px;
+    height: 200px;
+    background-color:gray;
+}
+
+.title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.first, .second, .third, .forth {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3882f6;
+    border-radius: 20px;
+}
+.info {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.testimonial {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight:300;
+    font-style: italic;
+}
+.author {
+    color: #1f2937;
+    font-weight:bold;
+}
+.testimonial, .author {
+    background-color: #e5e7eb; 
+}
+.call, .sign, .blue, button {
+    background-color: #3882f6;
+}
+.call {
+    font-size: 24px;
+    font-weight: 900;
+}
+button {
+    width: 80px;
+    height: 30px;
+    border-radius: 6px;
+    border-width: 2px;
+    font-weight: bold;
+}
+.sign, .call, .boton, button, img, .placeholder {
+    color: #f9faf8;
+}
+.boton {
+    border-color: #f9faf8;
+}
