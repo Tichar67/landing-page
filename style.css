@@ -1,20 +1,47 @@
 body {
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
 }
-.black, .copy {
+.black, .copy, .headers {
     background-color: #1f2937;
 }
 
-a, .logo, .subtext, .copy {
+.black, .headers {
+    padding: 25px 250px 0px 250px;
+}
+
+.headers, .black {
+    display: flex;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+    margin-bottom: 100px;
+}
+
+.placeholder {
+    display: flex;
+    height: 200px;
+    width: 600px;
+    margin-bottom: 100px;
+    margin-left: 25px;
+    background-color:gray;
+    justify-content: center;
+    align-items: center;
+}
+
+a, .subtext, .copy, .header {
     color: #e5e7eb;
     font-size: 18px;
     text-decoration: none;
 }
 
-.placeholder {
-    width: 400px;
-    height: 200px;
-    background-color:gray;
+.logo {
+    font-size: 28px;
+    color: #e5e7eb;
+    font-weight: bold;
 }
 
 .title {
@@ -22,20 +49,15 @@ a, .logo, .subtext, .copy {
     color: #f9faf8;
     font-weight: 900;
 }
-.first, .second, .third, .forth {
-    width: 200px;
-    height: 200px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #3882f6;
-    border-radius: 20px;
-}
+
 .info {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
 }
-
+.subtext {
+    margin-bottom: 20px;
+}
 .testimonial {
     font-size: 36px;
     color: #1f2937;
@@ -52,14 +74,14 @@ a, .logo, .subtext, .copy {
 .call, .sign, .blue, button {
     background-color: #3882f6;
 }
-.call {
+.call, button, .author {
     font-size: 24px;
     font-weight: 900;
 }
 button {
-    width: 80px;
-    height: 30px;
-    border-radius: 6px;
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
     border-width: 2px;
     font-weight: bold;
 }
@@ -68,4 +90,60 @@ button {
 }
 .boton {
     border-color: #f9faf8;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    padding: 50px 500px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+    
+.first, .second, .third, .forth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3882f6;
+    border-radius: 20px;
+    margin: 0 0 10px 0;
+}
+.sub {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.testimonial {
+    padding: 100px 535px 0px 535px;
+}
+.author {
+    padding: 0px 535px 100px 535px;
+    text-align:right;
+}
+
+.blue {
+    display: flex;
+    margin: 150px 250px;
+    gap: 500px;
+    padding: 75px;
+    align-items: center;
+    justify-content:center;
+    border-radius: 10px;
+}
+
+.copy {
+    text-align: center;
+    padding: 50px;
 }
