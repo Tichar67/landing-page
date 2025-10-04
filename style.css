@@ -2,15 +2,20 @@ body {
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
 }
-.black, .copy, .headers {
+
+.black,
+.copy,
+.headers {
     background-color: #1f2937;
 }
 
-.black, .headers {
+.black,
+.headers {
     padding: 25px 250px 0px 250px;
 }
 
-.headers, .black {
+.headers,
+.black {
     display: flex;
 }
 
@@ -27,12 +32,15 @@ body {
     width: 600px;
     margin-bottom: 100px;
     margin-left: 25px;
-    background-color:gray;
+    background-color: gray;
     justify-content: center;
     align-items: center;
 }
 
-a, .subtext, .copy, .header {
+a,
+.subtext,
+.copy,
+.header {
     color: #e5e7eb;
     font-size: 18px;
     text-decoration: none;
@@ -55,29 +63,42 @@ a, .subtext, .copy, .header {
     color: #1f2937;
     font-weight: 900;
 }
+
 .subtext {
     margin-bottom: 20px;
 }
+
 .testimonial {
     font-size: 36px;
     color: #1f2937;
-    font-weight:300;
+    font-weight: 300;
     font-style: italic;
 }
+
 .author {
     color: #1f2937;
-    font-weight:bold;
+    font-weight: bold;
 }
-.testimonial, .author {
-    background-color: #e5e7eb; 
+
+.testimonial,
+.author {
+    background-color: #e5e7eb;
 }
-.call, .sign, .blue, button {
+
+.call,
+.sign,
+.blue,
+button {
     background-color: #3882f6;
 }
-.call, button, .author {
+
+.call,
+button,
+.author {
     font-size: 24px;
     font-weight: 900;
 }
+
 button {
     width: 160px;
     height: 50px;
@@ -85,9 +106,16 @@ button {
     border-width: 2px;
     font-weight: bold;
 }
-.sign, .call, .boton, button, img, .placeholder {
+
+.sign,
+.call,
+.boton,
+button,
+img,
+.placeholder {
     color: #f9faf8;
 }
+
 .boton {
     border-color: #f9faf8;
 }
@@ -103,13 +131,17 @@ button {
     justify-content: center;
     gap: 60px;
 }
-    
-.first, .second, .third, .forth {
+
+.first,
+.second,
+.third,
+.forth {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
+
 .box {
     width: 200px;
     height: 200px;
@@ -119,6 +151,7 @@ button {
     border-radius: 20px;
     margin: 0 0 10px 0;
 }
+
 .sub {
     width: 200px;
     height: 200px;
@@ -128,9 +161,10 @@ button {
 .testimonial {
     padding: 100px 535px 0px 535px;
 }
+
 .author {
     padding: 0px 535px 100px 535px;
-    text-align:right;
+    text-align: right;
 }
 
 .blue {
@@ -139,7 +173,7 @@ button {
     gap: 500px;
     padding: 75px;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     border-radius: 10px;
 }
 
